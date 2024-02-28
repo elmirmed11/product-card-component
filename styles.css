@@ -75,7 +75,7 @@ span {
     font-size: 14px;
     color: gray;
     font-weight: 100;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 button {
@@ -85,7 +85,7 @@ button {
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
-    padding-block: 16px;
+    padding-block: 14px;
     border: none;
     border-radius: 8px; 
 }
@@ -97,5 +97,24 @@ button:hover {
 
 svg {
     width: 15px;
-    margin-right: 10px;
+    margin-right: 8px;
+}
+
+@media (max-width: 580px) {
+    main {
+        flex-direction: column;
+        width: 92%;
+        max-height: 95vh;
+    }
+    section {
+        padding: 22px;
+        gap: 10px;
+    }
+    img {
+        max-height: 30%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
 }
