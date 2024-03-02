@@ -61,11 +61,11 @@ header {
 h1 {
     font-family: Fraunces, sans-serif;
     font-size: 36px;
-    line-height: 2rem;
+    line-height: 2.2rem;
     color: var(--color-darkblue);
 }
 
-p {margin-bottom: 5px;}
+p {margin-block: 5px;}
 
 h2 {
     font-family: Fraunces, sans-serif;
@@ -105,7 +105,7 @@ svg {
     margin-right: 8px;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 500px) {
     main {
         flex-direction: column;
         max-width: 92%;
