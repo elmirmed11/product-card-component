@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [(https://product-component-main.netlify.app)]
 
 ## My process
 
@@ -46,11 +46,31 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<strike>$169.99</strike>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+        max-width: 92%;
+        min-height: 92%;
+    }
+
+    section {
+        width: 100%;
+        min-height: 60%; 
+        padding: 22px;
+    }
+
+    #perfume-image {
+        background-image: url(./images/image-product-mobile.jpg);
+        min-height: 40%;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: inherit;
+    }
+
+    h1 {font-size: 32px;}
 }
 ```
 
