@@ -65,21 +65,22 @@ h1 {
     color: var(--color-darkblue);
 }
 
-p {margin-block: 5px;}
+p {margin-top: -5px;}
 
 h2 {
     font-family: Fraunces, sans-serif;
     color: var(--color-darkcyan);
-    font-size: 30px;
+    font-size: 34px;
 }
 
-strike {
+span {
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     color: gray;
     font-weight: 500;
     margin-left: 15px;
     vertical-align: top;
+    text-decoration: line-through;
 }
 
 button {
@@ -96,7 +97,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: var(--color-darkblue);
+    background-color: hsl(158, 36%, 20%);
 }
 
 svg {
