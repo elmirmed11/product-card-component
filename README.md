@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [(https://product-component-main.netlify.app)]
+- Solution URL: [https://www.frontendmentor.io/solutions/productcardcomponent-_p5CH20rU3]
+- Live Site URL: [https://product-component-main.netlify.app]
 
 ## My process
 
